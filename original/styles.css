@@ -1,0 +1,6 @@
+.passage {
+  display: flex;
+  height: 200px; /* Or whatever */
+  width: 600px;
+  margin: auto;
+}
