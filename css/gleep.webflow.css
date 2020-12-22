@@ -1,3 +1,19 @@
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
 body {
   font-family: Inter, sans-serif;
   color: #333;
@@ -341,7 +357,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #5b3acc;
+  background-color: #00720b;
 }
 
 .menu_title {
@@ -1559,8 +1575,8 @@ blockquote {
 }
 
 .c04_column {
-  padding-right: 25px;
-  padding-left: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .lnd_paragraph_02 {
@@ -10432,7 +10448,7 @@ blockquote {
   border-width: 1px;
   border-color: rgba(23, 48, 73, 0.18);
   border-radius: 100px;
-  background-color: #7540ee;
+  background-color: #00720b;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   color: #fff;
@@ -27347,6 +27363,15 @@ blockquote {
   text-align: center;
 }
 
+.youtube {
+  max-height: 750px;
+  max-width: 1000px;
+  min-height: 300px;
+  min-width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 1920px) {
   .body {
     display: block;
@@ -29653,6 +29678,11 @@ blockquote {
   .text-span-5 {
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
+  }
+
+  .youtube {
+    width: auto;
+    min-width: 400px;
   }
 }
 
