@@ -27329,6 +27329,24 @@ blockquote {
   margin-bottom: 100px;
 }
 
+.h07_h3 {
+  max-width: 610px;
+  margin: 100px auto 15px;
+  color: #000;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.h07_h4 {
+  max-width: 610px;
+  margin: 100px auto;
+  color: #000;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+}
+
 @media screen and (min-width: 1920px) {
   .body {
     display: block;
@@ -27396,6 +27414,14 @@ blockquote {
   .text-field {
     min-height: 400px;
     min-width: 200px;
+  }
+
+  .h07_h3 {
+    color: #000;
+  }
+
+  .h07_h4 {
+    color: #000;
   }
 }
 
