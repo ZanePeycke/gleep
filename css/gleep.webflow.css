@@ -8137,7 +8137,7 @@ blockquote {
 
 .h07_h1 {
   max-width: 610px;
-  margin: 15px auto;
+  margin: 100px auto 15px;
   color: #000;
   font-size: 48px;
   line-height: 48px;
@@ -8151,7 +8151,7 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  height: 100vh;
+  height: auto;
   min-height: 750px;
   padding-right: 5%;
   padding-left: 5%;
@@ -8178,6 +8178,7 @@ blockquote {
 
 .h07_container {
   max-width: 1140px;
+  margin-bottom: 100px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -27324,6 +27325,10 @@ blockquote {
   margin-left: auto;
 }
 
+.text-block-43 {
+  margin-bottom: 100px;
+}
+
 @media screen and (min-width: 1920px) {
   .body {
     display: block;
@@ -27349,6 +27354,7 @@ blockquote {
   }
 
   .h07 {
+    height: auto;
     margin-bottom: 40px;
     background-color: #fff;
   }
@@ -27847,6 +27853,10 @@ blockquote {
 
   .h06_block {
     width: 100%;
+  }
+
+  .h07 {
+    height: auto;
   }
 
   .fe01_card {
@@ -31255,6 +31265,11 @@ blockquote {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+  }
+
+  .h07_container {
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .fe01_card {
